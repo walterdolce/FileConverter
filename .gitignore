@@ -1,0 +1,10 @@
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Project
+composer.phar
+bin/
+vendor/

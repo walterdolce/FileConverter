@@ -1,0 +1,35 @@
+{
+  "require": {
+    "gerardtoko/yaml-parser": "0.0.0"
+  },
+  "require-dev": {
+    "behat/behat": "3.0.15",
+    "phpspec/phpspec": "2.2.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "gerardtoko/yaml-parser",
+        "version": "0.0.0",
+        "dist": {
+          "url": "https://github.com/gerardtoko/yaml-parser/archive/master.zip",
+          "type": "zip"
+        },
+        "autoload": {
+          "classmap": [
+            "app/"
+          ]
+        }
+      }
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  }
+}
